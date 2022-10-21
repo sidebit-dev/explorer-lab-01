@@ -19,7 +19,7 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 // Desta forma não podemos executar no navegador
-setCardType("mastercard")
+setCardType("default")
 // Deixando global podemos
 globalThis.setCardType = setCardType
 
